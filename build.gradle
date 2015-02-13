@@ -29,11 +29,11 @@ buildProps.withReader {
 }
 
 if (project.getProperty("bambooshortPlanName") == "BBM-Dev") {
-    group = "dev.builtbroken.mining101"
-    archivesBaseName = "Mining101"
+    group = "dev.builtbroken.watchyourstep"
+    archivesBaseName = "WatchYourStep"
 } else {
-    group = "com.builtbroken.,mining101"
-    archivesBaseName = "Mining101"
+    group = "com.builtbroken.watchyourstep"
+    archivesBaseName = "WatchYourStep"
 }
 
 version = "${project.minecraft.version}-${config.version.mod.major}.${config.version.mod.minor}.${config.version.mod.revis}b"
@@ -51,7 +51,7 @@ def currentJvm = org.gradle.internal.jvm.Jvm.current()
 println "Current Java version = " + currentJvm
 
 
-archivesBaseName = "Mining101"
+archivesBaseName = "WatchYourStep"
 
 minecraft {
 	replace "@MAJOR@", config.version.mod.major
