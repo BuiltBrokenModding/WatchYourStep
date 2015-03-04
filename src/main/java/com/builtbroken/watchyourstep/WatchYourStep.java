@@ -46,7 +46,7 @@ public final class WatchYourStep extends AbstractMod
 
     public WatchYourStep()
     {
-        super(DOMAIN);
+        super(DOMAIN, "WatchYourStep");
     }
 
     @Mod.EventHandler
