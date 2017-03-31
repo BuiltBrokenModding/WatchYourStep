@@ -1,7 +1,7 @@
 package com.builtbroken.watchyourstep.content;
 
 import com.builtbroken.mc.lib.helper.LanguageUtility;
-import com.builtbroken.mc.lib.transform.region.Cube;
+import com.builtbroken.mc.imp.transform.region.Cube;
 import com.builtbroken.mc.prefab.tile.Tile;
 import com.builtbroken.watchyourstep.WatchYourStep;
 import net.minecraft.block.material.Material;
