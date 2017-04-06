@@ -11,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 /**
  * Created by robert on 11/18/2014.
  */
-@Mod(modid = WatchYourStep.DOMAIN, name = WatchYourStep.NAME, version = WatchYourStep.VERSION, dependencies = "required-after:VoltzEngine")
+@Mod(modid = WatchYourStep.DOMAIN, name = WatchYourStep.NAME, version = WatchYourStep.VERSION, dependencies = "required-after:voltzengine")
 public final class WatchYourStep extends AbstractMod
 {
     /** Name of the channel and mod ID. */
